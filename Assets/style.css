@@ -68,13 +68,15 @@ h1, h2 {
 #forecast {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .forecast-item {
-    background-color: #f8f9fa;
+    background-color: #343a40; 
+    color: white; 
     border-radius: 5px;
     padding: 10px;
-    margin: 20px;
+    margin: 5px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     flex: 1;
     min-width: 200px;
